@@ -1,0 +1,13 @@
+:root{--bg:#fbfbf8;--text:#1d2420;--muted:#5b6660;--line:#dfe3dd;--link:#1f5f8b;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#161a18;--text:#e6ebe7;--muted:#9aa59f;--line:#2c332f;--link:#7fb6dd;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif}
+main{max-width:40rem;margin:0 auto;padding:4rem 1.25rem 5rem}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .5rem;font-weight:600}
+h2{font-size:1.15rem;margin:2.25rem 0 .5rem;font-weight:600}
+p,li{margin:0 0 .9rem}
+ul{padding-left:1.25rem}
+.meta{color:var(--muted);margin-bottom:2rem}
+a{color:var(--link)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
